@@ -1,0 +1,9 @@
+protocol: ???
+patience: 5
+
+defaults:
+  - task: Segmentation
+  - model: PyanNet
+  - optimizer: Adam
+  - trainer: default
+  - hydra: train
